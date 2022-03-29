@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CallPhoneActivity"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/title"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/teal_200"
+        />
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="phone"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="38dp" />
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Call"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@color/violet"
+
+        />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BT2_18520526</string>
+    <string name="title">Number</string>
+    <string name="phone">Phone</string>
+    <string name="time">Current Time</string>
+    <string name="alert">Alert Dialog</string>
+    <string name="titleS">Enter text</string>
+    <string name="watch">See Time</string>
+</resources>
